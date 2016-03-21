@@ -38,6 +38,7 @@
 		37F1FBE91C882A4E006D1218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F1FBE71C882A4E006D1218 /* LaunchScreen.storyboard */; };
 		37F1FBF41C882A4E006D1218 /* SettingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1FBF31C882A4E006D1218 /* SettingTests.m */; };
 		37F356EB1C9659AF004C0F98 /* WJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F356EA1C9659AF004C0F98 /* WJBaseViewController.m */; };
+		37F98A401C9F854900F2D696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A3F1C9F854900F2D696 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,8 @@
 		37F1FC1D1C883D46006D1218 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		37F356E91C9659AF004C0F98 /* WJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJBaseViewController.h; sourceTree = "<group>"; };
 		37F356EA1C9659AF004C0F98 /* WJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJBaseViewController.m; sourceTree = "<group>"; };
+		37F98A3E1C9F854900F2D696 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37F98A3F1C9F854900F2D696 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		66A7F72634CABCEF96AB12D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -300,6 +303,8 @@
 				3793ABF21C8ECE0D00EADC3F /* FirstViewController.m */,
 				3793ABF31C8ECE0D00EADC3F /* SecondViewController.h */,
 				3793ABF41C8ECE0D00EADC3F /* SecondViewController.m */,
+				37F98A3E1C9F854900F2D696 /* ViewController.h */,
+				37F98A3F1C9F854900F2D696 /* ViewController.m */,
 			);
 			path = Temp;
 			sourceTree = "<group>";
@@ -604,6 +609,7 @@
 				3793AC2C1C8ECE0D00EADC3F /* ReachStateUnReachable.m in Sources */,
 				3793AC2A1C8ECE0D00EADC3F /* ReachStateLoading.m in Sources */,
 				3793AC1E1C8ECE0D00EADC3F /* AppDelegate.m in Sources */,
+				37F98A401C9F854900F2D696 /* ViewController.m in Sources */,
 				3793AC2F1C8ECE0D00EADC3F /* PingFoundation.m in Sources */,
 				3793AC2B1C8ECE0D00EADC3F /* ReachStateUnloaded.m in Sources */,
 				3793AC281C8ECE0D00EADC3F /* FSMStateUtil.m in Sources */,

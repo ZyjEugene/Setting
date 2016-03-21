@@ -9,7 +9,7 @@
 
 #import "WJNavigationController.h"
 
-@interface WJNavigationController ()
+@interface WJNavigationController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -34,9 +34,28 @@
      
     //蓝底黑字
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigation_bg"]forBarMetrics:UIBarMetricsDefault];
+    
+    //开启系统自带的侧滑
+    self.interactivePopGestureRecognizer.delegate = self;
     // Do any additional setup after loading the view.
 }
 
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    //注意：只有非根控制器才有滑动返回功能，更控制器没有
+    if (self.childViewControllers.count == 1) {
+        return NO;
+    }
+    else {
+        //想让哪个控制器不能侧滑，做判断即可
+//        if ([self.topViewController isKindOfClass:[UIViewController class]]) {
+//            return NO;
+//        }
+//        else
+        {
+            return YES;
+        }
+    }
+}
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }
