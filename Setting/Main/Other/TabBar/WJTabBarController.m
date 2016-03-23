@@ -9,8 +9,7 @@
 #import "WJTabBarController.h"
 #import "WJNavigationController.h"
 
-#import "FirstViewController.h"
-#import "SecondViewController.h"
+#import "HomePageViewController.h"
 #import "MineViewController.h"
 
 @interface WJTabBarController ()<UITabBarControllerDelegate>
@@ -46,11 +45,9 @@
  *  添加所有的子控制器
  */
 - (void)addChildViewContollers {
-    FirstViewController *firstView = [[FirstViewController alloc] init];
-    [self setUpChildViewController:firstView title:@"消息" imageName:@"tabbar_chat_no" selectedImageName:@"tabbar_chat_yes"];
-    
-    SecondViewController *secondView = [[SecondViewController alloc] init];
-    [self setUpChildViewController:secondView title:@"发现" imageName:@"tabbar_found_no" selectedImageName:@                                  "tabbar_found_yes"];
+   
+    HomePageViewController *firstView = [[HomePageViewController alloc] init];
+    [self setUpChildViewController:firstView title:@"首页" imageName:@"tabbar_chat_no" selectedImageName:@"tabbar_chat_yes"];
     
     MineViewController *mineView = [[MineViewController alloc] init];
     [self setUpChildViewController:mineView title:@"我" imageName:@"tabbar_me_no" selectedImageName:@"tabbar_me_yes"];
@@ -67,7 +64,7 @@
 - (void)setUpChildViewController:(UIViewController *)viewController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)seletedImageName {
    
     viewController.title = title;
-    
+     
     viewController.tabBarItem.image = [UIImage imageWithNamed:imageName];//iOS7中的一个设置UIImage的渲染模式
     
     viewController.tabBarItem.selectedImage = [UIImage imageWithNamed:seletedImageName];

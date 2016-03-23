@@ -9,6 +9,10 @@
 #ifndef macros_h
 #define macros_h
 
+#pragma mark - 代码执行效率分析
+#define TICK   NSDate *startTime = [NSDate date]
+#define TOCK   NSLog(@"Time: %f", -[startTime timeIntervalSinceNow])
+
 #define APPDELEGETE 	((AppDelegate*)[[UIApplication sharedApplication] delegate])
 
 #pragma mark - Frame
@@ -27,19 +31,7 @@
 
 #pragma mark - Color
 // -------------------------------------------------    颜色定义开始  -------------------------------//
-//通用视觉规范
-#define WJWhiteColor COLOR(255, 255, 255)          //纯白
-#define WJBlueColor COLOR(0, 153, 255)             //蓝色
-#define WJOrangeColor COLOR(253, 106, 60)          //橙色
-#define WJYellowColor COLOR(239, 166, 68)          //黄色
-#define WJBlackColor COLOR(68, 68, 68)             //浅黑色
-#define WJGrayColor COLOR(102, 102, 102)           //灰色
-#define WJlightGrayColor COLOR(153, 153, 153)      //浅灰色
-#define WJCoffeeColor COLOR(185,152,99)            //咖啡色
-#define WJCommonBgColor  COLOR(248, 248, 248)      //灰白色
-#define WJSeparatorLineColor COLOR(232, 232, 232)  //分割线颜色
-#define WJTranslucentColor ColorWithAlpha(0,0,0,0.55)  //半透明颜色
-
+ 
 #define DEFAULT_NAVBAR_COLOR  [UIColor colorWithRed:20.0/255.0 green:20.0/255.0 blue:20.0/255.0 alpha:0.9]
 
 #define DEFAULT_TABBAR_BACKGOUND_COLOR [UIColor colorWithRed:245.0/255 green:245.0/255  blue:245.0/255 alpha:1.0f]
