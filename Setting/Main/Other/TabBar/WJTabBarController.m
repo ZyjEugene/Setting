@@ -47,10 +47,16 @@
 - (void)addChildViewContollers {
    
     HomePageViewController *firstView = [[HomePageViewController alloc] init];
-    [self setUpChildViewController:firstView title:@"首页" imageName:@"tabbar_chat_no" selectedImageName:@"tabbar_chat_yes"];
+    [self setUpChildViewController:firstView
+                             title:@"首页"
+                         imageName:@"tabbar_chat_no"
+                 selectedImageName:@"tabbar_chat_yes"];
     
     MineViewController *mineView = [[MineViewController alloc] init];
-    [self setUpChildViewController:mineView title:@"我" imageName:@"tabbar_me_no" selectedImageName:@"tabbar_me_yes"];
+    [self setUpChildViewController:mineView
+                             title:@"我"
+                         imageName:@"tabbar_me_no"
+                 selectedImageName:@"tabbar_me_yes"];
     
 }
 /**
@@ -61,7 +67,10 @@
  *  @param imageName         图片
  *  @param seletedImageName  选中后的图片
  */
-- (void)setUpChildViewController:(UIViewController *)viewController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)seletedImageName {
+- (void)setUpChildViewController:(UIViewController *)viewController
+                           title:(NSString *)title
+                       imageName:(NSString *)imageName
+               selectedImageName:(NSString *)seletedImageName {
    
     viewController.title = title;
      
@@ -89,7 +98,6 @@
  
     //调用父类的setSelectedIndex
     [super setSelectedIndex:selectedIndex];
-    
 }
 
 -(void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {

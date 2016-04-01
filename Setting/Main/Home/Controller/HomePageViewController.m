@@ -18,6 +18,7 @@
 @implementation HomePageViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
 
@@ -27,13 +28,14 @@
     [self setUpNavBar];
     // Do any additional setup after loading the view.
 }
+
 - (void)viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
     
     [self scrollControl];
-    
 }
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     [self scrollControl];
@@ -56,13 +58,14 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
     return 30;
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     

@@ -20,7 +20,10 @@
 - (void)clearNavBar;
 
 /** rate将决定颜色变化程度,值越大,颜色变化越明显,rate的取值范围是0.01 - 0.999999 */
-- (void)scrollControlRate:(CGFloat)height colorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue ;
+- (void)scrollControlRate:(CGFloat)height
+             colorWithRed:(CGFloat)red
+                    green:(CGFloat)green
+                     blue:(CGFloat)blue ;
 
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "WJUserDetailCell.h"
-#import "UIView+TL.h"
+#import "UIView+Extension.h"
 
 @interface WJUserDetailCell ()
 
@@ -47,13 +47,13 @@
 -(void)layoutSubviews {
     [super layoutSubviews];
     
-    float spaceX = self.frameWidth * 0.04;
-    float spaceY = self.frameHeight * 0.15;
-    float imageWidth = self.frameHeight - spaceY * 2;
+    float spaceX = self.width * 0.04;
+    float spaceY = self.height * 0.15;
+    float imageWidth = self.height - spaceY * 2;
     _avatarImageView.frame = CGRectMake(spaceX, spaceY, imageWidth, imageWidth);
     
     float labelX = imageWidth + spaceX * 2;
-    float labelWidth = self.frameWidth - labelX - spaceX * 1.5;
+    float labelWidth = self.width - labelX - spaceX * 1.5;
     float labelHeight = imageWidth * 0.42;
     float labelY = spaceY * 1.45;
     _userNameLabel.frame = CGRectMake(labelX, labelY, labelWidth, labelHeight);

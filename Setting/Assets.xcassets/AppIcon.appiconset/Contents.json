@@ -16,21 +16,18 @@
       "scale" : "2x"
     },
     {
-      "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "AppIcon60x60@2x-1.png",
+      "size" : "40x40",
       "scale" : "3x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "AppIcon60x60@2x.png",
+      "size" : "60x60",
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "AppIcon60x60@3x.png",
+      "size" : "60x60",
       "scale" : "3x"
     }
   ],

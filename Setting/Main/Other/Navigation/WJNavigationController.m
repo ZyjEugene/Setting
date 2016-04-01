@@ -56,6 +56,7 @@
         }
     }
 }
+
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }

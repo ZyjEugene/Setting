@@ -35,7 +35,10 @@ static bool _isNavBarItemAlpha = YES; //默认导航条上的子标签跟着隐�
     
 }
 
-- (void)scrollControlRate:(CGFloat)rate colorWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue{
+- (void)scrollControlRate:(CGFloat)rate
+             colorWithRed:(CGFloat)red
+                    green:(CGFloat)green
+                     blue:(CGFloat)blue{
     
     //传值处理
     if (rate >= 1) {
@@ -74,7 +77,7 @@ static bool _isNavBarItemAlpha = YES; //默认导航条上的子标签跟着隐�
 }
 
 // 获取tableView 或者 collectionView
-- (UIScrollView *)getScrollerView{
+- (UIScrollView *)getScrollerView {
     
     if ([self isKindOfClass:[UITableViewController class]]) {
         

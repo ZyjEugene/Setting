@@ -57,7 +57,7 @@
 
 // ------------------------    字体定义开始  -------------------------------//
 #pragma mark - Font
-#define SysFontWithSize(s) [UIFont systemFontOfSize:s]
+#define SYSFontWithSize(s) [UIFont systemFontOfSize:s]
 #define PFNFontWithSize(s) [UIFont fontWithName:@"PingFangSC-Regular" size:s]
 #define PFBFontWithSize(s) [UIFont fontWithName:@"PingFangSC-Thin" size:s]
 #define HTFontWithSize(s)  [UIFont fontWithName:@"Heiti SC" size:s]

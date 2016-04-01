@@ -15,6 +15,7 @@
 @implementation WJBaseViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)])
     {
@@ -29,7 +30,8 @@
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
-     [super viewWillDisappear:animated];
+    
+    [super viewWillDisappear:animated];
     
     self.hidesBottomBarWhenPushed = YES;
  }

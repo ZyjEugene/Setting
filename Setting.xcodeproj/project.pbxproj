@@ -32,14 +32,18 @@
 		3793AC2F1C8ECE0D00EADC3F /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793AC131C8ECE0D00EADC3F /* PingFoundation.m */; };
 		3793AC301C8ECE0D00EADC3F /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793AC151C8ECE0D00EADC3F /* PingHelper.m */; };
 		3793AC311C8ECE0D00EADC3F /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793AC171C8ECE0D00EADC3F /* RealReachability.m */; };
-		3793AC341C8ED20000EADC3F /* UIView+TL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793AC331C8ED20000EADC3F /* UIView+TL.m */; };
 		37AEB30D1CA2771B00D40AFF /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AEB30C1CA2771B00D40AFF /* HomePageViewController.m */; };
 		37AEB3101CA27CC200D40AFF /* UIViewController+NavBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AEB30F1CA27CC200D40AFF /* UIViewController+NavBarHidden.m */; };
+		37AEB3131CA50E9C00D40AFF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AEB3121CA50E9C00D40AFF /* UIView+Extension.m */; };
 		37F1FBDB1C882A4E006D1218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1FBDA1C882A4E006D1218 /* main.m */; };
 		37F1FBE61C882A4E006D1218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F1FBE51C882A4E006D1218 /* Assets.xcassets */; };
 		37F1FBE91C882A4E006D1218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F1FBE71C882A4E006D1218 /* LaunchScreen.storyboard */; };
 		37F1FBF41C882A4E006D1218 /* SettingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F1FBF31C882A4E006D1218 /* SettingTests.m */; };
 		37F356EB1C9659AF004C0F98 /* WJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F356EA1C9659AF004C0F98 /* WJBaseViewController.m */; };
+		37F86F111CA8DC07002D9725 /* WJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F86F101CA8DC07002D9725 /* WJSettingCell.m */; };
+		37F86F141CA8DC97002D9725 /* WJSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F86F131CA8DC97002D9725 /* WJSettingItem.m */; };
+		37F86F171CA8DCA9002D9725 /* WJSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F86F161CA8DCA9002D9725 /* WJSettingGroup.m */; };
+		37F86F1A1CA8E337002D9725 /* LocalStorageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F86F191CA8E337002D9725 /* LocalStorageTool.m */; };
 		37F98A401C9F854900F2D696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F98A3F1C9F854900F2D696 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -105,12 +109,12 @@
 		3793AC151C8ECE0D00EADC3F /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
 		3793AC161C8ECE0D00EADC3F /* RealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealReachability.h; sourceTree = "<group>"; };
 		3793AC171C8ECE0D00EADC3F /* RealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealReachability.m; sourceTree = "<group>"; };
-		3793AC321C8ED20000EADC3F /* UIView+TL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TL.h"; sourceTree = "<group>"; };
-		3793AC331C8ED20000EADC3F /* UIView+TL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TL.m"; sourceTree = "<group>"; };
 		37AEB30B1CA2771B00D40AFF /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		37AEB30C1CA2771B00D40AFF /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		37AEB30E1CA27CC200D40AFF /* UIViewController+NavBarHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarHidden.h"; sourceTree = "<group>"; };
 		37AEB30F1CA27CC200D40AFF /* UIViewController+NavBarHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarHidden.m"; sourceTree = "<group>"; };
+		37AEB3111CA50E9C00D40AFF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		37AEB3121CA50E9C00D40AFF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		37F1FBD61C882A4E006D1218 /* Setting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Setting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F1FBDA1C882A4E006D1218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37F1FBE51C882A4E006D1218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,6 +126,14 @@
 		37F1FC1D1C883D46006D1218 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		37F356E91C9659AF004C0F98 /* WJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJBaseViewController.h; sourceTree = "<group>"; };
 		37F356EA1C9659AF004C0F98 /* WJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJBaseViewController.m; sourceTree = "<group>"; };
+		37F86F0F1CA8DC07002D9725 /* WJSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingCell.h; sourceTree = "<group>"; };
+		37F86F101CA8DC07002D9725 /* WJSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingCell.m; sourceTree = "<group>"; };
+		37F86F121CA8DC97002D9725 /* WJSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingItem.h; sourceTree = "<group>"; };
+		37F86F131CA8DC97002D9725 /* WJSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingItem.m; sourceTree = "<group>"; };
+		37F86F151CA8DCA9002D9725 /* WJSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSettingGroup.h; sourceTree = "<group>"; };
+		37F86F161CA8DCA9002D9725 /* WJSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSettingGroup.m; sourceTree = "<group>"; };
+		37F86F181CA8E337002D9725 /* LocalStorageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStorageTool.h; sourceTree = "<group>"; };
+		37F86F191CA8E337002D9725 /* LocalStorageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalStorageTool.m; sourceTree = "<group>"; };
 		37F98A3E1C9F854900F2D696 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37F98A3F1C9F854900F2D696 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		66A7F72634CABCEF96AB12D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,8 +189,8 @@
 			children = (
 				374A10A21C92655C004ADC25 /* UIImage+FSUIImage.h */,
 				374A10A31C92655C004ADC25 /* UIImage+FSUIImage.m */,
-				3793AC321C8ED20000EADC3F /* UIView+TL.h */,
-				3793AC331C8ED20000EADC3F /* UIView+TL.m */,
+				37AEB3111CA50E9C00D40AFF /* UIView+Extension.h */,
+				37AEB3121CA50E9C00D40AFF /* UIView+Extension.m */,
 				37AEB30E1CA27CC200D40AFF /* UIViewController+NavBarHidden.h */,
 				37AEB30F1CA27CC200D40AFF /* UIViewController+NavBarHidden.m */,
 			);
@@ -211,6 +223,8 @@
 		3793ABD31C8ECE0C00EADC3F /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				37F86F181CA8E337002D9725 /* LocalStorageTool.h */,
+				37F86F191CA8E337002D9725 /* LocalStorageTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -239,6 +253,10 @@
 			children = (
 				3793ABDB1C8ECE0C00EADC3F /* WJPeopleModel.h */,
 				3793ABDC1C8ECE0D00EADC3F /* WJPeopleModel.m */,
+				37F86F121CA8DC97002D9725 /* WJSettingItem.h */,
+				37F86F131CA8DC97002D9725 /* WJSettingItem.m */,
+				37F86F151CA8DCA9002D9725 /* WJSettingGroup.h */,
+				37F86F161CA8DCA9002D9725 /* WJSettingGroup.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,6 +266,8 @@
 			children = (
 				3793ABE21C8ECE0D00EADC3F /* WJUserDetailCell.h */,
 				3793ABE31C8ECE0D00EADC3F /* WJUserDetailCell.m */,
+				37F86F0F1CA8DC07002D9725 /* WJSettingCell.h */,
+				37F86F101CA8DC07002D9725 /* WJSettingCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -640,7 +660,7 @@
 				3793AC221C8ECE0D00EADC3F /* SecondViewController.m in Sources */,
 				3793AC211C8ECE0D00EADC3F /* FirstViewController.m in Sources */,
 				374A10A41C92655C004ADC25 /* UIImage+FSUIImage.m in Sources */,
-				3793AC341C8ED20000EADC3F /* UIView+TL.m in Sources */,
+				37F86F1A1CA8E337002D9725 /* LocalStorageTool.m in Sources */,
 				37AEB30D1CA2771B00D40AFF /* HomePageViewController.m in Sources */,
 				3793AC201C8ECE0D00EADC3F /* WJTabBarController.m in Sources */,
 				37F1FBDB1C882A4E006D1218 /* main.m in Sources */,
@@ -656,10 +676,13 @@
 				3793AC2F1C8ECE0D00EADC3F /* PingFoundation.m in Sources */,
 				3793AC2B1C8ECE0D00EADC3F /* ReachStateUnloaded.m in Sources */,
 				3793AC281C8ECE0D00EADC3F /* FSMStateUtil.m in Sources */,
+				37AEB3131CA50E9C00D40AFF /* UIView+Extension.m in Sources */,
 				3793AC231C8ECE0D00EADC3F /* CHANGELOG.md in Sources */,
 				3793AC181C8ECE0D00EADC3F /* MineViewController.m in Sources */,
+				37F86F111CA8DC07002D9725 /* WJSettingCell.m in Sources */,
 				3793AC1F1C8ECE0D00EADC3F /* WJNavigationController.m in Sources */,
 				3793AC251C8ECE0D00EADC3F /* README.md in Sources */,
+				37F86F141CA8DC97002D9725 /* WJSettingItem.m in Sources */,
 				3793AC291C8ECE0D00EADC3F /* ReachState.m in Sources */,
 				37AEB3101CA27CC200D40AFF /* UIViewController+NavBarHidden.m in Sources */,
 				3793AC2E1C8ECE0D00EADC3F /* ReachStateWWAN.m in Sources */,
@@ -667,6 +690,7 @@
 				3793AC301C8ECE0D00EADC3F /* PingHelper.m in Sources */,
 				3793AC1D1C8ECE0D00EADC3F /* WJUserDetailCell.m in Sources */,
 				3793AC271C8ECE0D00EADC3F /* FSMEngine.m in Sources */,
+				37F86F171CA8DCA9002D9725 /* WJSettingGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
