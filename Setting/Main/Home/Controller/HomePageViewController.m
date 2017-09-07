@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    // 导航条设置
     self.automaticallyAdjustsScrollViewInsets = NO;
 
     //清除默认导航条的背景颜色
