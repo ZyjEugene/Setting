@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 设置View的背景颜色
     self.view.backgroundColor = [UIColor whiteColor];
     
 }
@@ -47,6 +48,7 @@
     }
     
     cell.textLabel.text = [NSString stringWithFormat:@"点击首页返回屏幕顶部－－%ld",indexPath.row];
+    cell.detailTextLabel.text = @"副标题";
     
     return cell;
 }
